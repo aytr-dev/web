@@ -1,0 +1,22 @@
+{
+  "name": "aytr-web",
+  "version": "0.1.0",
+  "description": "Aytr website and documentation",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aytr-dev/aytr-web.git"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "preinstall": "node ../dev-setup/scripts/check-setup.js || exit 0",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
